@@ -10,12 +10,19 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^16.7.0",
+    "@react-native-firebase/database": "^16.7.0",
+    "@react-navigation/native-stack": "^6.9.9",
     "native-base": "^3.4.25",
     "react": "18.2.0",
     "react-native": "0.71.1",
-    "react-native-safe-area-context": "^3.3.2",
+    "react-native-date-picker": "^4.2.6",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-safe-area-context": "^3.4.1",
+    "react-native-screens": "^3.19.0",
     "react-native-svg": "^12.1.1",
-    "react-native-vector-icons": "^9.2.0"
+    "react-native-vector-icons": "^9.2.0",
+    "react-navigation": "^4.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -25,6 +32,7 @@
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
     "@types/react": "^18.0.24",
+    "@types/react-native-vector-icons": "^6.4.13",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
     "eslint": "^8.19.0",
